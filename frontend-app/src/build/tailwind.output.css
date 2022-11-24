@@ -593,10 +593,6 @@ video {
   }
 }
 
-.collapse {
-  visibility: collapse;
-}
-
 .absolute {
   position: absolute;
 }
@@ -633,21 +629,12 @@ video {
   border-width: 1px;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .underline {
   text-decoration-line: underline;
 }
 
 .outline {
   outline-style: solid;
-}
-
-.filter {
-  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-          filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition {
