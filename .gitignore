@@ -1,5 +1,6 @@
 /app-frontend
 /frontend
 .DS_Store
-/backend
+/backend2
 /llvm-project
+.idea
