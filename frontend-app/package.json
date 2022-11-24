@@ -36,7 +36,9 @@
     "build": "npm run lint && EXTEND_ESLINT=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pretest": "npm run build:tailwind"
+    "pretest": "npm run build:tailwind",
+    "mock:server": "node server/dist/server.js build",
+    "start:proxy-and-server": "./scripts/start-proxy-and-server.sh"
   },
   "eslintConfig": {
     "extends": [
